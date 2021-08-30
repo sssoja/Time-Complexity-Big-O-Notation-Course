@@ -11,8 +11,6 @@ for (let i = 1; i <= 1024; i++) {
 let endIndex = arr.length - 1;
 
 function binarySearch(arr, startIndex, endIndex, target) {
-  //   console.log(arr.slice(startIndex, endIndex));
-
   if (startIndex > endIndex) return false;
 
   let midIndex = Math.floor((startIndex + endIndex) / 2);
